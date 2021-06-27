@@ -27,7 +27,7 @@ yarn install
 O projeto usa o banco de dados SqLite, para criá-lo execute o comando abaixo:
 
 ```sh
-yarn typeorm migration:run
+yarn migrations
 ```
 
 Após a execução do comando, observe na pasta "src/database/" que agora terá um arquivo com o nome database.sqlite
