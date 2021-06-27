@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "declaration": false,
+        "target": "es5",
+        "module": "commonjs",
+        "strict": false,
+        "strictPropertyInitialization": false,
+        "baseUrl": "./src",
+        "typeRoots": ["./src/@types"],
+        "rootDirs": ["./src"],
+        "paths": {
+            "@controllers": ["controllers/index"],
+            "@entities": ["entities/index"],
+            "@repositories": ["repositories/index"],
+            "@services": ["services/index"],
+            "@middlewares": ["middlewares/index"]
+        },
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "checkJs": false,
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.json"],
+    "exclude": ["src/infra/config/git-ignored/**/*"]
+}
