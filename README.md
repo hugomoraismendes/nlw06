@@ -1,6 +1,6 @@
 # Autenticação com JWT
 
-Projeto desenvolvido durante a NLW06 da trilha Node.JS na RockerSeat. Este mini projeto tem como objetivo abordar o uso de Sockets para fazer comunicação entre Cliente e Servidor.
+Projeto desenvolvido durante a NLW06 da trilha Node.JS na RocketSeat. Este mini projeto tem como objetivo abordar o uso de Sockets para fazer comunicação entre Cliente e Servidor.
 
 ## Projeto desenvolvido usando as seguintes tecnologias
 
